@@ -67,7 +67,7 @@ if(!isset($_SESSION['user']))
         </div>
 
     <?php
-    include "dbconnect.php";
+    include "models/dbconnect.php";
         if(isset($_GET['value']))
         {  
            $_SESSION['author']=$_GET['value'];
